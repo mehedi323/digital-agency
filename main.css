@@ -54,3 +54,78 @@
     color: white;
 
  }
+ .service-container{
+    display: flex;
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    align-items: center;
+    color: white;
+
+ }
+ .Auther-Profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+ .auth-btn{
+    padding: 10px 20px;
+    background-color: aliceblue; 
+ }
+ .auther-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 35px;
+ }
+ .auther-bio{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    border-right: 2px solid red;
+ }
+.auth-name{
+    text-align: center;
+    margin-left: 10px;
+}
+
+ .service-description{
+    width: 60%;
+    font-size: 20px;
+    padding-top: 10px;
+
+ }
+ .unoder-list{
+    padding: 20px;
+    font-size: medium;
+ }
+.service-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: antiquewhite;
+
+}
+ .fast-two-box{
+    display: flex;
+    gap:10px;
+    color: black;
+    margin-top: 10px;
+ }
+ .box{
+    width: 250px;
+    height: 180px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(245, 242, 242);
+ }
+ .logo{
+    width: 80px;
+    margin-bottom: 20px;
+ }
